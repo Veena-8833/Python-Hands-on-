@@ -1,0 +1,23 @@
+[
+  {
+    "route": "default",
+    "interface": "enp0s3",
+    "protocol": "dhcp",
+    "source": "10.0.2.15",
+    "metric": "100"
+  },
+  {
+    "route": "10.0.2.0/24",
+    "interface": "enp0s3",
+    "protocol": "kernel",
+    "source": "10.0.2.15",
+    "metric": "100"
+  },
+  {
+    "route": "172.17.0.0/16",
+    "interface": "docker0",
+    "protocol": "kernel",
+    "source": "172.17.0.1",
+    "metric": null
+  }
+]
