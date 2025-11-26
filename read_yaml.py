@@ -1,0 +1,15 @@
+import yaml
+import json
+with open (r"C:\Users\Veena madhuri\Downloads\docker-compose-basic-nrf.yaml") as f:
+    data = yaml.safe_load(f)
+service=data["services"]["oai-amf"]
+list=service.get("environment",[])
+dict={}
+for i in list:
+    if "=" in i:
+        key,value=i.split("=",1)
+        dict[key]=value
+print("MCC =",dict.get("MCC"))
+data=yaml.safe_load(open(r"C:\Users\Veena madhuri\Downloads\docker-compose-basic-nrf.yaml"))
+json_data=json.dumps(data,indent=2)
+print(json_data)
