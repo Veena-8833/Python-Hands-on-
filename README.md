@@ -17,3 +17,15 @@ Day 14 ,week 3:- Today we learnt about Errors in python, in that Types of Error,
 Next we learnt about logging modules, in that logging basics, logging levels, implementing logging, changing log format, logging to a file , advanced python logging and examples using logger objects.
 hands on lab on API logging topics and decorator to auto-log function.
 Also did hands-on on 2 tasks related to Cron job ssh
+
+
+
+
+Day 15, Week 3 – Summary
+Today we learnt about JSON and YAML fundamentals and how to work with them in Python.
+The key concepts covered include:
+JSON Basics – understanding keys, values, arrays, nested objects, and overall structure.
+YAML Basics – indentation rules, key–value formatting, lists, nested mappings, and how YAML differs from JSON.
+Python JSON & YAML Libraries – using modules like json and PyYAML to load, parse, read, and write structured data.
+Parsing API Responses – extracting specific fields, navigating objects/lists, and transforming API output.
+Hands-on Tasks – performing practical exercises involving JSON/YAML parsing and API-based operations.
